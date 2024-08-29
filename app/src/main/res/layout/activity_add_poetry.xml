@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".AddPoetry">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Add poetry"
+        android:id="@+id/add_poet_name_toolbar"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:inputType="text"
+        android:background="@drawable/et_bg"
+        android:hint="add poetry data"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:id="@+id/add_poetry_data_et"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:inputType="text"
+        android:background="@drawable/et_bg"
+        android:layout_marginTop="10dp"
+        android:hint="add poet name"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:id="@+id/add_poet_name_et"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/submit_data_btn"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_bg"
+        />
+</LinearLayout>

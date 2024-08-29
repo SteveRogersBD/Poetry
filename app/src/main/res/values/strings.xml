@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PoetryApp</string>
+    <string name="default_poem">To be, or not to be, that is the question:
+Whether \'tis nobler in the mind to suffer
+The slings and arrows of outrageous fortune,
+Or to take arms against a sea of troubles
+And by opposing end them.</string>
+    <string name="stormy_night_poem">Art thou abroad on this stormy night
+on thy journey of love, my friend?
+The sky groans like one in despair.
+I have no sleep tonight.</string>
+</resources>
